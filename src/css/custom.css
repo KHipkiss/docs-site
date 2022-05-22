@@ -5,6 +5,17 @@
  */
 
 /* You can override the default Infima variables here. */
+a{
+  color: #600130;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #600130;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
 :root {
   --ifm-color-primary: #4a0000;
   --ifm-color-primary-dark: #29784c;
@@ -14,7 +25,7 @@
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
-  --ifm-color-success-contrast-background: #ef12f3
+  --ifm-color-success-contrast-background: #ef12f3;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
